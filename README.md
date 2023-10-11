@@ -11,3 +11,4 @@ This is for Hacktoberfest, Here you will solve OOPs related Programming question
 | 4 | Use of Inheritance in C++ | [Nafisha Aslam](https://github.com/Nafisha08)
 | 5 | Encapsulation | [Supratik Maji](https://github.com/Supratimaji) 
 | 6 | Abstraction using java    | [Moola Pravalesh](https://github.com/MoolaPravalesh19) |
+| 7 | class program             | [Subhajit Kar ](https://github.com/Subhajitkar2003) |
