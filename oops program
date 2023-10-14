@@ -1,0 +1,34 @@
+#include<iostream>
+using namespace std;
+class dct{
+        private:
+            int m;
+        public:
+            dct(int i):m(i)
+            {
+                cout<<i <<"and"<< m<<endl;
+            }
+             ~dct()
+            {
+                cout<<"destructor 1"<<endl;
+            }
+};
+class a: public dct{ 
+        private:
+            int n;
+        public:
+            a(int l, int m): dct(m), n(l)
+            {
+                cout<<l+m<<"or"<<n<<endl;
+            }
+            ~a()
+            {
+                cout<<"destructor 2"<<endl;
+            }
+
+};
+int main()
+{
+    a obj(3,4);
+    return 0;
+}
